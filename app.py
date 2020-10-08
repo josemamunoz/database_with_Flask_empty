@@ -3,6 +3,7 @@ from flask_script import Manager
 from flask_migrate import Migrate, MigrateCommand
 from flask_cors import CORS
 from models import db, Test
+import flask_excel as excel
 
 app = Flask(__name__)
 app.url_map.strict_slashes = False
